@@ -56,7 +56,7 @@
             </div> <!--END OF LEFT-SIDE-->
 
 
-           
+           </div>
 
 
 
