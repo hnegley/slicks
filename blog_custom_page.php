@@ -5,7 +5,8 @@
             <?php if (have_posts()) : 
                 while (have_posts()) : the_post(); ?> 
                     <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
-                    <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                </br>
+                    <h6><a class="blog-link" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h6>
                     <?php the_excerpt(__('Continue reading »','example'));
                 endwhile; ?>
                 <div class="navigation">
@@ -19,4 +20,6 @@
         </div>
     </div>
 </div>
+</div>
+
 <?php get_footer(); ?>

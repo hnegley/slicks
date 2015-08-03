@@ -46,12 +46,9 @@ h1 {text-align:center;
 /*--- Menu --- */
 
 
-
-
-}
 .blank-menu-header ul {
     margin: 0; 
-    padding: 0; 
+    padding-bottom: 20px; 
     list-style-type: none; 
     list-style-image: none; 
 }
@@ -61,7 +58,7 @@ h1 {text-align:center;
 .blank-menu-header ul li a {
     text-decoration:none;  
     margin: 4px;
-    padding: 5px 0px 5px 40px; 
+    padding: 5px 30px 0px 0px; 
     font-weight: 300;
     font-size: 1.5rem;
     color:#1E469E;
@@ -71,6 +68,10 @@ h1 {text-align:center;
 }
 
 /*--- Front Page ---*/
+
+hr {border-color:#1E469E;
+}
+
 
 .blog-content{
     padding:20px 20px 20px 20px;
@@ -109,20 +110,27 @@ h1 {text-align:center;
 }
 
 
-
-
-
-
-
-
-
+/*--- Footer Page ---*/
 
 
 .footer-content{
-    padding:20px 20px 0px 20px;
     background-color:white;
     margin-top: 20px;
-    margin-bottom:20px;
+ 
+}
+
+#next_box {
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 30px;
+}
+
+
+.blog-link {
+    color:#1e469e;
+    text-decoration: none;
+    font-weight: bold;  
 }
 
 

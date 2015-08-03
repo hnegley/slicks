@@ -6,11 +6,13 @@
         <!--BEGIN SIDEBAR AREA-->
         <div class="four columns">
             
-            <div class="the_sidebar_one">
+            <div>
 
            <?php dynamic_sidebar('face-widget'); ?> </div>
         
             </div>
+
+
         
         <!--END SIDEBAR AREA-->
         
@@ -39,7 +41,7 @@
 
     </div>
 
-        
+    </div>  
 
     </section>
 

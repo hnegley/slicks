@@ -14,6 +14,8 @@
                 to help.
                 </p>
 
+                <hr>
+
            
         </div><!--END OF "TWELVE COLUMNS"-->
 
@@ -32,7 +34,6 @@
                     				the_post_thumbnail('large');
                     			} ?>
 
-                            <div class="margin-fixes">
 
                             <h3 class="fix-top"><?php the_title(); ?></h3>
 
