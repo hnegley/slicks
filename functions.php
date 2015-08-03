@@ -16,9 +16,9 @@ function blank_widgets_init() {
 /*---First New Widget---*/
 
     register_sidebar( array(
-        'name' => ('Footer Widget One'),
-        'id' => 'footer-widget-one',
-        'description' => 'First widget for our footer', 
+        'name' => ('Front Widget'),
+        'id' => 'front-widget',
+        'description' => 'Front widget', 
         'before_widget' => '<div class="widget-footer">', 
         'after_widget' => '</div>',
         'before_title' => '<h4>',
@@ -28,9 +28,9 @@ function blank_widgets_init() {
 /*---Second New Widget---*/
 
     register_sidebar( array(
-        'name' => ('Footer Widget Two'),
-        'id' => 'footer-widget-two',
-        'description' => 'Second widget for our footer', 
+        'name' => ('Next Widget'),
+        'id' => 'search-widget',
+        'description' => 'Next widget', 
         'before_widget' => '<div class="widget-footer">', 
         'after_widget' => '</div>',
         'before_title' => '<h4>',
@@ -40,9 +40,9 @@ function blank_widgets_init() {
 /*---Third New Widget---*/
 
     register_sidebar( array(
-        'name' => ('Footer Widget Three'),
-        'id' => 'footer-widget-three',
-        'description' => 'Third widget for our footer', 
+        'name' => ('Face Widget'),
+        'id' => 'face-widget',
+        'description' => 'My face', 
         'before_widget' => '<div class="widget-footer">', 
         'after_widget' => '</div>',
         'before_title' => '<h4>',
@@ -83,11 +83,6 @@ add_theme_support( 'custom-header', $args );
 /*------------------ Adding Search Form Option ----------------*/
 
 add_theme_support( 'html5', array( 'search-form' ) );
-
-
-
-
-
 
 
 

@@ -1,17 +1,11 @@
 <!--BEGINE FOOTER AREA-->
     	<footer class="row">
     		
-    		<div class="four columns">
-    			<?php dynamic_sidebar('footer-widget-one'); ?>
-    		</div>	
-
-    		<div class="four columns">
-    			<?php dynamic_sidebar('footer-widget-two'); ?>
-    		</div>	
-
-    		<div class="four columns">
-    			<?php dynamic_sidebar('footer-widget-three'); ?>
-    		</div>	
+    	<div class="twelve columns">
+                
+               <p class="blog-content center-align"> Copyright Slick's Autobody 2015. </p>
+            
+        </div>
 
 	</footer>
 

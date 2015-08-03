@@ -2,10 +2,11 @@
 
 	<section class="row">
     	<div class="twelve columns">
+           
 
             <h1>Welcome to Slick's Autobody</h1>
 
-                <p>Here at Slick's, we put the customer first. 
+                <p class="center-align">Here at Slick's, we put the customers first. 
                 We know that your car is your baby and that you 
                 want it back to normal as soon as possible. Let us
                 take care of everything. We're family owned and 
@@ -13,29 +14,57 @@
                 to help.
                 </p>
 
+           
+        </div><!--END OF "TWELVE COLUMNS"-->
+
     		<!-- BEGIN LOOP -->
-            	<?php 
+            <div class="twelve columns">
+
+      
+                <?php 
             	if ( have_posts() ) {
                 	while ( have_posts() ) {
                     	the_post(); ?>
 
-                    	<h3><?php the_title(); ?></h3>
                     	<div class="post-thumbnail-container">
                     		<?php 
                     			if(has_post_thumbnail() ) {
                     				the_post_thumbnail('large');
                     			} ?>
-                    		</div>
+
+                            <div class="margin-fixes">
+
+                            <h3 class="fix-top"><?php the_title(); ?></h3>
+
+                            <h6><time datetime="<?php the_time('Y-m-d')?>"><?php the_time('F jS, Y') ?></time></h6>
+
+                           
                     	<?php the_excerpt(); ?>
                     	<div class="clear"></div>
                 	<?php } // end while
             	} // end if
             	?>
-
-            	
-
 			<!-- END LOOP -->
+
+
+            
+            </div> <!--END OF FIX TOP-->
+            </div> <!--END OF MARGIN-FIXES-->
+
+            </div> <!--END OF POST-THUMBNAIL-CONTAINER-->
+            </div> <!--END OF LEFT-SIDE-->
+
+
+           
+
+
+
     	</div>
+
+
     </section>
 
 <?php get_footer(); ?>
+
+
+

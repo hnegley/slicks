@@ -18,4 +18,5 @@
             <?php endif; wp_reset_query(); ?>
         </div>
     </div>
+</div>
 <?php get_footer(); ?>

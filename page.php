@@ -1,9 +1,25 @@
 <?php get_header(); ?>
     
     <section class="row">
-        <div class="nine columns">
+        
+        
+        <!--BEGIN SIDEBAR AREA-->
+        <div class="four columns">
+            
+            <div class="the_sidebar_one">
+
+           <?php dynamic_sidebar('face-widget'); ?> </div>
+        
+            </div>
+        
+        <!--END SIDEBAR AREA-->
+        
+        
+        <div class="eight columns">
            
            <!-- BEGIN PAGE PHP -->
+            
+            <div class="content stay">
             
             <?php if (have_posts()) : 
                 /* OUR DATA CONTEXT IS DEFINED  */      
@@ -14,18 +30,20 @@
                     <?php the_content();
                 endwhile;
             endif; ?>
+                
+                </div>
 
 <!-- END PAGE PHP -->
         
         </div>
 
-        <!--BEGIN SIDEBAR AREA-->
-		<div class="three columns">
+    </div>
 
-			<?php get_sidebar(); ?>
         
-        </div>
-        <!--END SIDEBAR AREA-->
 
     </section>
+
 <?php get_footer(); ?>
+
+
+

@@ -13,7 +13,7 @@ Text Domain: Holly_Negley_Blank_Template
 
 
 *{
-    color: #000000;
+    color: #1E469E;
     font-size: 14px;
     line-height: 16px;
 }
@@ -27,21 +27,26 @@ h4 {font-size: 2.1rem;}
 h5 {font-size: 1.6rem;}
 h6 {font-size: 1.1rem;}
 
-body{background-color: #ffffff;
+body{background-color: #607bad;
     font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;}
 
 img {width:100%;
     height:auto;
-    padding-bottom: 10px;
+    background-color:white;
+}
+
+h1 {text-align:center;
+}
+
+
+.center-align {
+    text-align:center;
 }
 
 /*--- Menu --- */
 
-.blank-menu-header {
-    background-color: #1E469E;
-    padding: 15px 20px 10px 0px;
-    text-align: right;
-    margin-top: -5px;
+
+
 
 }
 .blank-menu-header ul {
@@ -58,18 +63,66 @@ img {width:100%;
     margin: 4px;
     padding: 5px 0px 5px 40px; 
     font-weight: 300;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
+    color:#1E469E;
 }
 .blank-menu-header ul li a:hover {
-    color: #cccccc;
+    color: #ffffff;
 }
 
 /*--- Front Page ---*/
 
+.blog-content{
+    padding:20px 20px 20px 20px;
+    background-color:white;
+    margin-top: 20px;
+}
+
 
 .post-thumbnail-container{
     width:100%;
-    height:auto;
+    height:auto;;
+}
+
+.margin-fixes{
+    padding: 20px 20px 0px 20px;
+}
+
+
+#blog_content h4{
+    font-weight: bold;
+    letter-spacing: .1rem;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#blog_content h6{
+    margin-bottom: 8px;
+    margin-top: -20px;
+    font-weight: bold;
+}
+
+.read-more {
+    color:red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer-content{
+    padding:20px 20px 0px 20px;
+    background-color:white;
+    margin-top: 20px;
+    margin-bottom:20px;
 }
 
 

@@ -12,9 +12,7 @@
 	
 	<header class="row">
 			
-			<div class="twelve columns">
-
-                
+			<div class="twelve columns blog-content">
 
                 <?php wp_nav_menu(array (
                     'sort_column' => 'menu_order',
@@ -28,7 +26,7 @@
     	</header>
 
     	<div class="row">
-    		<div class="twelve columns">
+    		<div class="twelve columns blog-content">
     			
 
 <!--END OF HEADER AREA-->
